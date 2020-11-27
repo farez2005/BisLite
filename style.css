@@ -291,9 +291,7 @@ body {
   width: calc((100% / 4) - 33.4px);
   position: relative;
   overflow: hidden;
-}
-.work:not(:last-child) {
-  margin-right: 40px;
+  margin: 0 20px;
 }
 .works-title {
   padding: 25px 0 18px 40px;
