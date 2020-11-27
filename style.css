@@ -560,7 +560,28 @@ body {
 
   position: relative;
 }
+.menu-close {
+  position: relative;
+}
+.close-line {
+  width: 30px;
+  height: 3px;
+  display: inline-block;
+  background-color: #000;
+  top: 20px;
+  left: -45px;
+  position: absolute;
+}
+.menu-close:hover .close-line {
+  background-color: #2aacc8;
+}
 
+.close-line:first-child {
+  transform: rotate(45deg);
+}
+.close-line:last-child {
+  transform: rotate(-45deg);
+}
 .menu-line {
   width: 35px;
   height: 4px;
